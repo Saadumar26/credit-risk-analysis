@@ -1,0 +1,26 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter runtime and config files (optional but clean)
+*.sqlite3
+.ipython/
+.jupyter/
