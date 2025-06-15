@@ -1,13 +1,13 @@
 # Credit Risk Analysis Using Machine Learning
 
-## 📌 Project Overview
+##  Project Overview
 This project performs **Credit Risk Analysis** by leveraging machine learning to predict whether a loan will be **fully paid** or **charged off** (i.e., defaulted). The goal is to assist financial institutions in assessing borrower risk using historical loan and customer financial data.
 
 The analysis includes **data preprocessing**, **exploratory data analysis (EDA)**, **feature engineering**, and **model development** using multiple classifiers. The final model aims to identify key features that influence creditworthiness and assist in automated loan decision-making.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Load and preprocess loan application data
 - Perform EDA to discover trends and risk patterns
 - Engineer meaningful features to improve model learning
@@ -17,7 +17,7 @@ The analysis includes **data preprocessing**, **exploratory data analysis (EDA)*
 
 ---
 
-## 📂 Dataset
+##  Dataset
 The dataset includes anonymized financial details of borrowers and their loan status. Key features include:
 
 - `loan_amnt` – Total amount funded
@@ -29,18 +29,18 @@ The dataset includes anonymized financial details of borrowers and their loan st
 - `dti` – Debt-to-income ratio
 - `credit_score` – Credit score of applicant
 
-> 📌 **Note:** The dataset was preprocessed to remove irrelevant or missing values, and categorical variables were encoded.
+>  **Note:** The dataset was preprocessed to remove irrelevant or missing values, and categorical variables were encoded.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 - **Python**
 - **Jupyter Notebook**
 - **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost
 
 ---
 
-## 🧠 Machine Learning Models
+##  Machine Learning Models
 The following classification algorithms were applied:
 
 - Logistic Regression
@@ -55,7 +55,7 @@ The following classification algorithms were applied:
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 - Distribution of `loan_status`
 - Loan purpose vs default rate
 - Credit score and DTI distributions
@@ -64,7 +64,7 @@ The following classification algorithms were applied:
 
 ---
 
-## ⚙️ Feature Engineering
+##  Feature Engineering
 - Label encoding of categorical features
 - Credit score binning for risk segmentation
 - Ratio features: `income_to_loan`
@@ -72,7 +72,7 @@ The following classification algorithms were applied:
 
 ---
 
-## 📊 Results & Findings
+##  Results & Findings
 - **Random Forest** and **XGBoost** outperformed Logistic Regression, with XGBoost yielding the best ROC-AUC score.
 - Key predictive features:
   - `credit_score`
@@ -83,7 +83,7 @@ The following classification algorithms were applied:
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. **Clone the repository**
    ```bash
