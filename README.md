@@ -33,7 +33,7 @@ The dataset includes anonymized financial details of borrowers and their loan st
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 - **Python**
 - **Jupyter Notebook**
 - **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, XGBoost
